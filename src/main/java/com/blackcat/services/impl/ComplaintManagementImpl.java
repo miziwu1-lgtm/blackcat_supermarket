@@ -5,7 +5,7 @@ import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.blackcat.VO.ComplaintVO;
 import com.blackcat.entity.ComplaintManagement;
-import com.blackcat.mapper.ComplaintManagementMapper;
+import com.blackcat.dao.ComplaintManagementMapper;
 import com.blackcat.services.IComplaintManagementService;
 import org.springframework.stereotype.Service;
 

@@ -1,6 +1,5 @@
-package com.blackcat.mapper;
+package com.blackcat.dao;
 
-import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.blackcat.VO.OrderAmountByTimeVO;
 import com.blackcat.VO.OrdersOverViewVO;

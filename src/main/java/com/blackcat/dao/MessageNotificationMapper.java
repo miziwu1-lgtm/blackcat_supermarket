@@ -1,4 +1,4 @@
-package com.blackcat.mapper;
+package com.blackcat.dao;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.blackcat.entity.MessageNotification;

@@ -4,7 +4,7 @@ import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.blackcat.VO.AuditManagementVO;
-import com.blackcat.mapper.AuditManagementMapper;
+import com.blackcat.dao.AuditManagementMapper;
 import com.blackcat.entity.AuditManagement;
 import com.blackcat.services.IAuditManagementService;
 import org.springframework.stereotype.Service;

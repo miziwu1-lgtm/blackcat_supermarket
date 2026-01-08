@@ -3,7 +3,7 @@ package com.blackcat;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-@MapperScan("com.blackcat.mapper")
+@MapperScan("com.blackcat.dao")
 @SpringBootApplication
 public class BlackcatApplication {
 

@@ -1,4 +1,4 @@
-package com.blackcat.mapper;
+package com.blackcat.dao;
 
 import com.baomidou.mybatisplus.core.conditions.Wrapper;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;

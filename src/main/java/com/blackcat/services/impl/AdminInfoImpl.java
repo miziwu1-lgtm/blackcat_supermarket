@@ -4,7 +4,7 @@ import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.blackcat.entity.AdminInfo;
 import com.blackcat.utils.R;
-import com.blackcat.mapper.AdminInfoMapper;
+import com.blackcat.dao.AdminInfoMapper;
 import com.blackcat.services.IAdminInfoService;
 import org.springframework.stereotype.Service;
 
