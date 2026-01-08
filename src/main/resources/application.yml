@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: blackcat
+  datasource:
+#    url: jdbc:mysql://blackcat:3306/blackcat?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true
+    url: jdbc:mysql://localhost:3306/sx?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+mybatis-plus:
+  global-config:
+    db-config:
+      id-type: auto
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+server:
+  port: 8080
+  servlet:
+    encoding:
+      charset: UTF-8
+      force: true
+# 配置自己的Api key
+#aliyun:
+#  oss:
+#    endpoint: oss-cn-hangzhou.aliyuncs.com
+#    accessKeyId: Your Key Id
+#    accessKeySecret: Your Key Secret
+#    bucketName: Your Bucket Name
